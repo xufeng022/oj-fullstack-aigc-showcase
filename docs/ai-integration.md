@@ -209,25 +209,3 @@ Deterministic Judge
         |
         '-- AI enhancement
 ```
-
-## 10. 面试说明
-
-整个 AI 设计的重点不是“调用一个模型 API”，而是：
-
-```text
-Provider abstraction
-+
-service isolation
-+
-versioned integration
-+
-fallback
-+
-RAG
-+
-conversation memory
-+
-deterministic core isolation
-```
-
-这使 AI 成为增强能力，而不是系统单点故障。

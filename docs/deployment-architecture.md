@@ -197,17 +197,3 @@ centralized logging
 ```
 
 尤其 Code Sandbox 应优先部署到独立执行节点。
-
-## 12. 面试说明
-
-这个部署设计强调：
-
-```text
-服务边界
-网络边界
-数据边界
-执行边界
-AI 边界
-```
-
-而不是简单地把所有容器放在同一个 Docker Compose 中。

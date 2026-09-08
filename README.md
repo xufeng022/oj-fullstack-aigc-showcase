@@ -2,7 +2,7 @@
 
 > AI-enhanced Online Judge & Programming Learning Platform
 
-这是一个面向 Java 后端 / 微服务 / AI Agent 方向面试准备的工程化项目展示仓库。
+这是一个面向 Java 后端、微服务与 AI Agent 方向的工程化项目展示仓库。
 
 本仓库主要记录项目架构、工程改造、技术方案和运行效果，不包含完整业务源码。
 
@@ -310,7 +310,7 @@ Independent AI Code Assistant:
 AI Integration
 ```
 
-适合作为 Java 后端、微服务、在线判题以及 AI 应用方向的综合面试项目。
+项目集中展示 Java 后端、微服务、在线判题以及 AI 应用方向的工程实践。
 
 ## 设计文档
 
@@ -351,10 +351,8 @@ AI Integration
 
 ![AI Code Analysis](images/04-ai-analysis.png)
 
-## Repository Notice
+## 仓库说明
 
-This repository is a technical showcase containing architecture documentation,
-engineering notes and project demonstrations.
+本仓库用于展示项目的系统架构、工程设计、技术方案与实际运行效果。
 
-The complete application source code is maintained separately and is not
-published in this repository.
+完整业务源码在独立的私有仓库中维护，本公开仓库不包含完整业务源码。

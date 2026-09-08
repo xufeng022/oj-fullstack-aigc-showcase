@@ -1,12 +1,9 @@
-# Repository Scope Notice
+# 仓库范围说明
 
-This repository is a technical showcase.
+本仓库为项目技术展示仓库。
 
-It contains architecture documentation, engineering notes, diagrams and
-demonstration materials prepared for technical presentation and interview use.
+仓库内容主要包括系统架构说明、工程设计文档、技术方案、架构图以及实际运行效果截图，用于展示项目的工程实践与设计思路。
 
-The complete application source code is maintained separately and is not
-distributed through this repository.
+完整应用源码在独立的私有仓库中维护，不通过本仓库公开发布。
 
-This repository does not grant any license to third-party or upstream source
-code that is not included here.
+本仓库不对未包含在此仓库中的第三方源码或上游源码授予任何许可。

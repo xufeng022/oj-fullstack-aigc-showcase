@@ -162,15 +162,3 @@ service mesh
 ```
 
 HMAC 不能替代传输层加密。
-
-## 10. 面试说明
-
-这个方案解决的不是“用户登录认证”，而是：
-
-```text
-Service-to-Service Authentication
-+
-Replay Protection
-```
-
-并通过 Gateway 和 Service 两层校验降低内部接口被直接调用的风险。
