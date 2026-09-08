@@ -316,6 +316,7 @@ AI Integration
 
 | Document | Topic |
 | --- | --- |
+| [Architecture Overview](docs/architecture-overview.md) | 系统整体架构、安全边界、判题与 AI 链路 |
 | [Judge Reliability](docs/judge-reliability.md) | Transactional Outbox、Judge Lease、幂等与故障恢复 |
 | [Sandbox Security](docs/sandbox-security.md) | Docker 代码沙箱、安全边界与资源隔离 |
 | [Internal Authentication](docs/internal-auth.md) | HMAC-SHA256、Canonical Path、Redis Nonce |
@@ -323,6 +324,14 @@ AI Integration
 | [Deployment Architecture](docs/deployment-architecture.md) | 微服务、Docker Compose 与网络边界 |
 
 这些文档只描述工程设计、架构决策和技术实现思路，不包含完整业务源码。
+
+## 项目截图
+
+截图将在完成脱敏检查后加入。
+
+公开截图规范：
+
+[Project Screenshot Checklist](images/README.md)
 
 ## Repository Notice
 
