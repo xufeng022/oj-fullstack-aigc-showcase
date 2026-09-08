@@ -327,11 +327,29 @@ AI Integration
 
 ## 项目截图
 
-截图将在完成脱敏检查后加入。
+### 题库首页
 
-公开截图规范：
+展示题目检索、难度、标签、通过率等基础在线判题功能。
 
-[Project Screenshot Checklist](images/README.md)
+![Question List](images/01-home.png)
+
+### 在线编程与提交
+
+题目页面集成代码编辑器，当前判题语言为 Java 8。代码提交后进入异步判题链路。
+
+![Question Editor](images/02-question-editor.png)
+
+### 确定性判题 + AI 二次评审
+
+确定性 Judge 负责最终 Accepted、Wrong Answer、Compile Error、Runtime Error、Time Limit Exceeded 等结果；AI Review 作为增强能力独立展示，不覆盖核心判题结果。
+
+![Accepted Result](images/03-accepted.png)
+
+### Independent AI Code Assistant
+
+用户可对已提交代码发起 AI 分析。OJ AI Service 通过版本化 Integration API 调用独立 AI Code Assistant，并结合 Agent、RAG / PGVector 和模型能力生成代码审查结果。
+
+![AI Code Analysis](images/04-ai-analysis.png)
 
 ## Repository Notice
 
