@@ -1,6 +1,6 @@
 # OJ Fullstack AIGC Showcase
 
-> AI-enhanced Online Judge & Programming Learning Platform
+> AI 增强型在线判题与编程学习平台
 
 这是一个面向 Java 后端、微服务与 AI Agent 方向的工程化项目展示仓库。
 
