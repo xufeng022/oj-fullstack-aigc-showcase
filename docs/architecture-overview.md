@@ -1,6 +1,6 @@
 # 系统架构总览
 
-## 1. Overall Architecture
+## 1. 整体架构
 
 ```mermaid
 flowchart LR
@@ -51,7 +51,7 @@ flowchart LR
     Agent --> Qwen
 ```
 
-## 2. Judge Reliability
+## 2. 判题可靠性
 
 ```mermaid
 sequenceDiagram
@@ -96,7 +96,7 @@ Judge Lease
 Idempotent Final Write
 ```
 
-## 3. Internal Authentication
+## 3. 内部服务认证
 
 ```mermaid
 flowchart LR
@@ -137,7 +137,7 @@ Service HMAC Authentication
 Redis Replay Protection
 ```
 
-## 4. Code Execution Boundary
+## 4. 代码执行边界
 
 ```mermaid
 flowchart LR
@@ -167,7 +167,7 @@ No-new-privileges
 
 Docker Socket 本身仍属于高权限边界，因此生产环境建议将代码执行节点进一步隔离。
 
-## 5. AI Architecture
+## 5. AI 架构
 
 ```mermaid
 flowchart LR
@@ -212,7 +212,7 @@ Enhancement Path
 
 外部模型异常不会覆盖或阻塞核心确定性判题。
 
-## 6. Deployment Boundary
+## 6. 部署边界
 
 ```text
 Public
@@ -247,7 +247,7 @@ rollback
 
 二者仅通过版本化 Integration API 联动。
 
-## 7. Architecture Decisions
+## 7. 架构设计决策
 
 本项目重点关注以下工程边界：
 

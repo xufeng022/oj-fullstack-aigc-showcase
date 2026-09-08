@@ -165,7 +165,7 @@ nonce
 - 用户账号数据库唯一索引
 - Public User VO 不暴露敏感字段
 
-## 5. AI Service
+## 5. AI 服务
 
 OJ 内置独立 AI Service。
 
@@ -191,7 +191,7 @@ AI Service 保留 Provider 抽象，并提供：
 
 AI 结果不会覆盖确定性 Judge Verdict。
 
-## 6. Independent AI Code Assistant
+## 6. 独立 AI 代码助手
 
 OJ 还能通过独立版本化 API 调用另一个 AI Code Assistant：
 
@@ -345,7 +345,7 @@ AI Integration
 
 ![Accepted Result](images/03-accepted.png)
 
-### Independent AI Code Assistant
+### 独立 AI 代码助手
 
 用户可对已提交代码发起 AI 分析。OJ AI Service 通过版本化 Integration API 调用独立 AI Code Assistant，并结合 Agent、RAG / PGVector 和模型能力生成代码审查结果。
 
