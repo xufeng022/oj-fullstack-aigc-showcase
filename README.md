@@ -312,6 +312,18 @@ AI Integration
 
 适合作为 Java 后端、微服务、在线判题以及 AI 应用方向的综合面试项目。
 
+## 设计文档
+
+| Document | Topic |
+| --- | --- |
+| [Judge Reliability](docs/judge-reliability.md) | Transactional Outbox、Judge Lease、幂等与故障恢复 |
+| [Sandbox Security](docs/sandbox-security.md) | Docker 代码沙箱、安全边界与资源隔离 |
+| [Internal Authentication](docs/internal-auth.md) | HMAC-SHA256、Canonical Path、Redis Nonce |
+| [AI Integration](docs/ai-integration.md) | DeepSeek、Spring AI、Agent、RAG 与降级设计 |
+| [Deployment Architecture](docs/deployment-architecture.md) | 微服务、Docker Compose 与网络边界 |
+
+这些文档只描述工程设计、架构决策和技术实现思路，不包含完整业务源码。
+
 ## Repository Notice
 
 This repository is a technical showcase containing architecture documentation,
