@@ -12,7 +12,7 @@ Independent AI Code Assistant
 
 两者职责不同，并保持独立部署边界。
 
-## 2. OJ 内置 AI Service
+## 2. OJ 内置 AI 服务
 
 OJ 自身包含独立 AI Service。
 
@@ -74,7 +74,7 @@ Deterministic Judge
 
 AI 失败不会破坏核心判题。
 
-## 4. Independent AI Code Assistant
+## 4. 独立 AI 代码助手
 
 项目还能通过 OpenFeign 调用独立部署的 AI Code Assistant。
 

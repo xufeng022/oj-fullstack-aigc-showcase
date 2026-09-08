@@ -219,7 +219,7 @@ AI Code Assistant
 
 ## 7. 技术栈
 
-### Backend
+### 后端
 
 - Java 8
 - Spring Boot 2.x
@@ -229,7 +229,7 @@ AI Code Assistant
 - OpenFeign
 - MyBatis Plus
 
-### Infrastructure
+### 基础设施
 
 - MySQL
 - Redis
@@ -238,7 +238,7 @@ AI Code Assistant
 - Docker Compose
 - Nginx
 
-### Frontend
+### 前端
 
 - Vue 3
 - TypeScript
@@ -247,14 +247,14 @@ AI Code Assistant
 
 ### AI
 
-OJ AI Service:
+OJ AI 服务：
 
 - DeepSeek
 - Provider abstraction
 - Redis
 - OpenFeign
 
-Independent AI Code Assistant:
+独立 AI 代码助手：
 
 - Java 21
 - Spring Boot
